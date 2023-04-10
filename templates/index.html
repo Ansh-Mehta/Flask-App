@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Architecture Design Planning</title>
+  <link rel="stylesheet" href="../static/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<title>Architecture Design Planning</title>
+
+<!--META TAGS-->
+<meta name="viewport" content="width=device-width, initial-scal=1, user-scalable=no">
+<meta name="author" content="Mahesh">
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--EXTERNAL CSS
+<link rel="stylesheet" href="css/style.css">-->
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+<header>
+<div class="menu">
+<table>
+<tr>
+<td><img src="https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521__480.jpg" alt="INKQUBELA ART MART" class="logo"></td>
+<td>
+<input type="text" class="search" name="search" placeholder="Search"><button type="submit"><i class="fa fa-search"></i></button>
+</td>
+<td>
+<span>
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn">Account 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Profile</a>
+      <a href="#">Orders</a>
+      <a href="#">Wishlist</a>
+      <a href="#">LogIn/LogOut</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn cart"><i class="fa fa-shopping-cart"></i> <span class="value">2</span>
+    </button>
+    <div class="dropdown-content cart-content">
+      <a>
+      <ul>
+      <li>
+      <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Item">
+      </li>
+      <li>
+      </li>
+      <li><i class="fa fa-trash"></i></li>
+      </ul>
+      <ul>
+      <li>
+      <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Item">
+      </li>
+      <li>
+      </li>
+      <li><i class="fa fa-trash"></i></li>
+      </ul>
+      <button type="submit" class="btn1">CheckOut</button>
+      </a>
+    </div>
+  </div> 
+</div>
+</span>
+</td>
+</tr>
+</table>
+</div>
+
+
+  <div class="dropdown responsive">
+    <button class="dropbtn">Account 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Profile</a>
+      <a href="#">Orders</a>
+      <a href="#">Wishlist</a>
+      <a href="#">Login</a>
+    </div>
+  </div> 
+  
+  
+  <div class="dropdown responsive">
+    <button class="dropbtn"><i class="fa fa-shopping-cart"></i><span class="value">2</span>
+    </button>
+    <div class="dropdown-content">
+      <a>
+            <ul>
+      <li>
+      <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Item">
+      </li>
+      <li>
+      <span class="title">Samsung Galaxy POP</span>
+      <span class="sub-title"><i class="fa fa-rupee"></i>5999<span>
+      </li>
+      <li><i class="fa fa-trash"></i></li>
+      </ul>
+      <ul>
+      <li>
+      <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Item">
+      </li>
+      <li>
+      <span class="title">Samsung Galaxy POP</span>
+      <span class="sub-title"><i class="fa fa-rupee"></i>5999<span>
+      </li>
+      <li><i class="fa fa-trash"></i></li>
+      </ul>
+      <button type="submit" class="btn1">CheckOut</button>
+      </a>
+    </div>
+  </div> 
+<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section class="section1">
+<div class="add-card" style="background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg);">
+</div>
+<div class="add-card" style="background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg);">
+</div>
+<div class="add-card" style="background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg);">
+</div>
+</section>
+
+
+<h1 class="title section2-header">Designs</h1>
+<section class="section2">
+<div class="deal-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+</div>
+
+<div class="deal-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+</div>
+
+<div class="deal-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+</div>
+
+<div class="deal-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+</div>
+
+<div class="deal-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+</div>
+
+<div class="deal-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+</div>
+
+
+<div class="deal-card advertise-card">
+
+</div>
+</section>
+
+
+<div class="section3-header">
+<span class="title">BASED ON YOUR INTEREST</span>
+<a href="#" class="btn1 viewmore">View More</a>
+<button class="next" onclick='scrollright()'><i class="fa fa-angle-right"></i></button>
+<button class="previous" onclick='scrollleft()'><i class="fa fa-angle-left"></i></button>
+</div>
+<section class="section3" id="section3">
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+</section>
+  
+  
+<div class="section4-header">
+<span class="title">DISCOUNT CORNER</span>
+<a href="#" class="btn1 viewmore">View More</a>
+<button class="next" onclick='scrollright4()'><i class="fa fa-angle-right"></i></button>
+<button class="previous" onclick='scrollleft4()'><i class="fa fa-angle-left"></i></button>
+</div>
+<section class="section4" id="section4">
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+<a href="#" class="like-button"><i class="fa fa-heart-o"></i></a>
+<span class="title">Chimney</span>
+<span class="rating">
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+(930)
+</span>
+<span class="btn2">Fast Sold</span>
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+
+<div class="discount-card">
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="section6">
+<table>
+<tr>
+<td>
+<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="APP">
+</td>
+<td>
+<span class="title">Download Our App Now</span>
+<span class="sub-title">Fast, Simple & Delightful. All it takes is 15 seconds to Download.</span>
+<a href="#" class="btn1"><i class="fa fa-android"></i> DOWNLOAD</a>
+</td>
+</tr>
+</table>
+</section>
+
+
+
+<footer>
+<div class="footer">
+<ul>
+<li>
+<select>
+<option value="english">English</option>
+<option value="chinese">Chinese</option>
+<option value="deutsch">Deutsch</option>
+<option value="hindi">Hindi</option>
+<option value="portuguese">Portuguese</option>
+<option value="spanish">Spanish</option>
+</select>
+</li>
+<li>
+<select>
+<option value="Dollar">USD: US-Dollar</option>
+</select>
+</li>
+</ul>
+
+<ul>
+<li class="title">OTHER LINKS</li>
+<li>Contact Us</li>
+<li>Privacy Policy</li>
+<li>Terms & Conditions</li>
+<li>Tickets</li>
+<li>Customer Service</li>
+<li>Our App</li>
+</ul>
+
+<ul>
+<li class="title">SHORTCUT</li>
+<li>Electronics</li>
+<li>Men & Women</li>
+<li>House Hold</li>
+<li>Sport & Fitness</li>
+<li>Books</li>
+<li>Kids Corner</li>
+</ul>
+
+<ul>
+<li class="title">LET HELP YOU</li>
+<li>Covid-19</li>
+<li>Your Account</li>
+<li>Shipping Rates</li>
+<li>Replacement</li>
+<li>Help</li>
+<li>
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+</li>
+</ul>
+</div>
+<div class="sub-footer">Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh
+</div>
+</footer>
+
+
+
+
+<!--ADDITIONAL-->
+<div id="id01" class="modal">
+  
+  <section class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+    </section>
+</div>
+
+
+<!--JAVASCRIPT
+<script src="js/custom.js"></script>
+<script src="js/adds.js"></script>
+-->
+  
+  
+  
+
+<!-- partial -->
+  <script  src="../static/script.js"></script>
+
+</body>
+</html>
