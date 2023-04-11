@@ -24,109 +24,40 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Designs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Architects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-<header>
-<div class="menu">
-<table>
-<tr>
-<td><img src="https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521__480.jpg" alt="INKQUBELA ART MART" class="logo"></td>
-<td>
-<input type="text" class="search" name="search" placeholder="Search"><button type="submit"><i class="fa fa-search"></i></button>
-</td>
-<td>
-<span>
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Account 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Profile</a>
-      <a href="#">Orders</a>
-      <a href="#">Wishlist</a>
-      <a href="#">LogIn/LogOut</a>
-    </div>
-  </div> 
-  <div class="dropdown">
-    <button class="dropbtn cart"><i class="fa fa-shopping-cart"></i> <span class="value">2</span>
-    </button>
-    <div class="dropdown-content cart-content">
-      <a>
-      <ul>
-      <li>
-      <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Item">
-      </li>
-      <li>
-      </li>
-      <li><i class="fa fa-trash"></i></li>
-      </ul>
-      <ul>
-      <li>
-      <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Item">
-      </li>
-      <li>
-      </li>
-      <li><i class="fa fa-trash"></i></li>
-      </ul>
-      <button type="submit" class="btn1">CheckOut</button>
-      </a>
-    </div>
-  </div> 
-</div>
-</span>
-</td>
-</tr>
-</table>
-</div>
-
-
-  <div class="dropdown responsive">
-    <button class="dropbtn">Account 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Profile</a>
-      <a href="#">Orders</a>
-      <a href="#">Wishlist</a>
-      <a href="#">Login</a>
-    </div>
-  </div> 
-  
-  
-  <div class="dropdown responsive">
-    <button class="dropbtn"><i class="fa fa-shopping-cart"></i><span class="value">2</span>
-    </button>
-    <div class="dropdown-content">
-      <a>
-            <ul>
-      <li>
-      <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Item">
-      </li>
-      <li>
-      <span class="title">Samsung Galaxy POP</span>
-      <span class="sub-title"><i class="fa fa-rupee"></i>5999<span>
-      </li>
-      <li><i class="fa fa-trash"></i></li>
-      </ul>
-      <ul>
-      <li>
-      <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Item">
-      </li>
-      <li>
-      <span class="title">Samsung Galaxy POP</span>
-      <span class="sub-title"><i class="fa fa-rupee"></i>5999<span>
-      </li>
-      <li><i class="fa fa-trash"></i></li>
-      </ul>
-      <button type="submit" class="btn1">CheckOut</button>
-      </a>
-    </div>
-  </div> 
-<a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-</header>
 <br>
 <br>
 <br>
@@ -134,40 +65,44 @@
 <br>
 <br>
 
-<section class="section1">
-<div class="add-card" style="background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg);">
-</div>
-<div class="add-card" style="background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg);">
-</div>
-<div class="add-card" style="background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url(https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg);">
-</div>
-</section>
+
 
 
 <h1 class="title section2-header">Designs</h1>
 <section class="section2">
 <div class="deal-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+  <a href="/details"><img src="https://th.bing.com/th/id/R.6a07fd45697d11750d8de36648df4855?rik=5ivlCfbkGUy2OQ&riu=http%3a%2f%2fmedia.architecturaldigest.com%2fphotos%2f568c50de7fd9a58978b7ea80%2fmaster%2fpass%2f1_SmallKitchens_JennyWolf_IMAGE.jpg&ehk=GMge7COv%2fu%2bqaWtIHfXWalT2fa1frHEwS9DD6fHs6ps%3d&risl=&pid=ImgRaw&r=0" alt="Deals"></a> 
+  <p>This architecture was designed by Van Gogh, the famous Italian architect...</p>
 </div>
 
 <div class="deal-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+<img src="https://th.bing.com/th/id/OIP.GP3nf_gyaGbOxAyL2YZfFQHaE8?pid=ImgDet&rs=1" alt="Deals">
+<p>Architects may work on a wide range of projects, from small residential homes to large commercial buildings, and may specialize in different areas...
+
+</p>
 </div>
 
 <div class="deal-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+<img src="https://th.bing.com/th/id/R.3809ff3e1a74e2c1889cf78fb97cb4b7?rik=BIYYxcYGTEsKSw&riu=http%3a%2f%2fwww.homeepiphany.com%2fwp-content%2fuploads%2f2017%2f06%2f20-Beautiful-Master-Bedroom-Designs-3-Copy.jpg&ehk=%2bDq5BSxnXbwpJzzQ9NGwou6wN6k4kcsPX%2bkSpLfMGqs%3d&risl=&pid=ImgRaw&r=0" alt="Deals">
+<p>Architects typically begin a project by conducting site visits and surveys, researching zoning laws and building codes, and collaborating with engineers..</p>
 </div>
 
 <div class="deal-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+<img src="https://th.bing.com/th/id/R.611bc27a8331c8df0348d147020785b1?rik=NAsN853tAbcXgg&riu=http%3a%2f%2fcdn.home-designing.com%2fwp-content%2fuploads%2f2013%2f06%2fmodern-master-bedroom-3.jpg&ehk=saQYtxd%2buK7sm4gM%2bG6YKshIpfyf6kPlQ8VJ7Yx811I%3d&risl=&pid=ImgRaw&r=0" alt="Deals">
+<p>
+  In addition to technical and creative skills, architects must also possess strong communication and interpersonal skills to effectively work with clients, contractors..
+</p></div>
+
+<div class="deal-card">
+<img src="https://th.bing.com/th/id/OIP.R8C5HU-CuCprRKFDkToEFgHaK_?pid=ImgDet&rs=1" alt="Deals">
+<p>ecture
+  Italian architecture is renowned for its rich history, diversity, and artistic beauty. It has been influenced by various cultures throughout history..
+ </p>
 </div>
 
 <div class="deal-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
-</div>
-
-<div class="deal-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Deals">
+<img src="https://amazingarchitecture.com/storage/files/1/Architecture%20firms/DT%20Design%20Studio/Glassy%20Bathroom/01-Glassy-Bathroom-DT-Design-Studio-.jpg" alt="Deals">
+<p>In addition to these famous examples, Italian architecture is also known for its use of high-quality materials, such as marble, travertine, and terra cotta..</p>
 </div>
 
 
@@ -177,89 +112,12 @@
 </section>
 
 
-<div class="section3-header">
-<span class="title">BASED ON YOUR INTEREST</span>
-<a href="#" class="btn1 viewmore">View More</a>
-<button class="next" onclick='scrollright()'><i class="fa fa-angle-right"></i></button>
-<button class="previous" onclick='scrollleft()'><i class="fa fa-angle-left"></i></button>
-</div>
-<section class="section3" id="section3">
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
 
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-</section>
   
   
-<div class="section4-header">
-<span class="title">DISCOUNT CORNER</span>
-<a href="#" class="btn1 viewmore">View More</a>
-<button class="next" onclick='scrollright4()'><i class="fa fa-angle-right"></i></button>
-<button class="previous" onclick='scrollleft4()'><i class="fa fa-angle-left"></i></button>
-</div>
-<section class="section4" id="section4">
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-<a href="#" class="like-button"><i class="fa fa-heart-o"></i></a>
-<span class="title">Chimney</span>
-<span class="rating">
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span>
-(930)
-</span>
-<span class="btn2">Fast Sold</span>
-</div>
 
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
 
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
 
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-
-<div class="discount-card">
-<img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="Product">
-</div>
-</section>
 
 
 
@@ -275,7 +133,7 @@
 <td>
 <img src="https://cdn.pixabay.com/photo/2014/02/25/22/06/staircase-274614__480.jpg" alt="APP">
 </td>
-<td>
+<td><br><br><br><br>
 <span class="title">Download Our App Now</span>
 <span class="sub-title">Fast, Simple & Delightful. All it takes is 15 seconds to Download.</span>
 <a href="#" class="btn1"><i class="fa fa-android"></i> DOWNLOAD</a>
@@ -369,6 +227,7 @@
 
 <!-- partial -->
   <script  src="../static/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
